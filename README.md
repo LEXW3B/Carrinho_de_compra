@@ -10,7 +10,6 @@ Neste projeto foi criado uma versão simplificada de uma tela de compras feita u
   <img src="./img/carrinho_de_compras.png" width="75%">
 </p>
 <br>
-## Tecnologias
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
