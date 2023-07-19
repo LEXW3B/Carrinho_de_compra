@@ -3,9 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <title>Carrinho de Compras</title>
 </head>
 <body>
-  
+  <header>
+    <span>Carrinho de compras <b>LEXW3B</b></span>
+  </header>
+
+  <main>
+    <div class="page-title">Seu carrinho</div>
+    <div class="content">
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Preço</th>
+              <th>Quantidade</th>
+              <th>Total</th>
+              <th>-</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <td>
+              <div class="product">
+                <img src="https://picsum.photos/100/120" alt="">
+                <div class="info">
+                  <div class="name">Nome do produto</div>
+                  <div class="category">Categoria</div>
+                </div>
+              </div>
+            </td>
+            <td>R$ 120</td>
+            <td>
+              <div class="qty">
+                <button>-</button>
+                <span>2</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td>R$ 240</td>
+            <td><button><i class='bx bx-x'></i></button></td>
+          </tbody>
+        </table>
+      </section>
+      <aside>resumo das compras</aside>
+    </div>
+  </main>
 </body>
 </html>

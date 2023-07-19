@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: #111;
+  color: white;
+  font-size: 24px;
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background: #fff;
+  padding: 0 30px ;
+
+  .page-title {
+    font-size: 40px;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+
+    section {
+      flex: 1;
+    }
+    aside {
+      background: red;
+      min-width: 250px;
+    }
+  }
+ 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  thead {
+    tr {
+      border-bottom: 3px solid #eee;
+
+      th {
+        text-align: left;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        color: #666;
+      }
+    }
+  }
+
+  tbody {}
+  
+}
+
+.product {
+  display: flex;
+  align-items: center;
+
+  img {
+    border-radius: 6px;
+  }
+
+  .info {
+    margin-left: 20px;
+    
+    .name {
+      font-size: 20px;
+    }
+
+    .category {
+      color: #666;
+    }
+  }
+}
+
