@@ -101,8 +101,40 @@ table {
   }
 }
 
+.qty {
+  background: #eee;
+  padding: 0 0;
+  min-width: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 30px;
+  
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+
+  span {
+    margin: 0 10px;
+  }
+
+  button {
+    background: transparent;
+    border: 0;
+    padding: 0 10px;
+    font-size: 20px;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background: #ddd;
+    }
+  }
+}
+
 .remove {
-  background: #ccc;
+  background: #eee;
   border: 0;
   width: 30px;
   height: 30px;
@@ -113,4 +145,8 @@ table {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  &:hover {
+    background: #ddd;
+  }
 }
