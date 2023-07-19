@@ -10,6 +10,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 header {
   background: #111;
   color: white;
@@ -88,6 +92,7 @@ table {
 
     .name {
       font-size: 20px;
+      margin-bottom: 10px;
     }
 
     .category {
@@ -96,3 +101,16 @@ table {
   }
 }
 
+.remove {
+  background: #ccc;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
