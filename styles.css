@@ -8,12 +8,7 @@ body {
   background-color: #f6f6f6;
   font-family: "Lato", sans-serif;
 }
-
-button {
-  cursor: pointer;
-}
-
-header {
+body > header {
   background: #111;
   color: white;
   font-size: 24px;
@@ -21,25 +16,28 @@ header {
   display: flex;
   justify-content: center;
 }
-
-main {
+body > main {
   background: #fff;
-  padding: 0 30px;
+  padding: 0 30px 30px;
 }
-main .page-title {
+body > main .page-title {
   font-size: 40px;
   padding: 50px 0;
   text-align: center;
 }
-main .content {
+body > main .content {
   display: flex;
 }
-main .content section {
+body > main .content section {
   flex: 1;
 }
-main .content aside {
-  background: red;
+body > main .content aside {
   min-width: 250px;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
 }
 
 table {
@@ -124,4 +122,64 @@ table tbody tr td {
 }
 .remove:hover {
   background: #ddd;
+}
+
+aside {
+  margin-left: 30px;
+}
+aside .box {
+  background: #eee;
+  color: #222;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+aside .box header {
+  padding: 15px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+}
+aside .box .info {
+  padding: 20px;
+  font-size: 16px;
+}
+aside .box .info > div {
+  margin-bottom: 10px;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+}
+aside .box .info > div:last-child {
+  margin: 0;
+}
+aside .box .info button {
+  color: #28a745;
+  background: transparent;
+  border: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+aside .box .info button i {
+  font-size: 18px;
+}
+aside .box footer {
+  font-size: 18px;
+  padding: 15px 20px;
+  background: #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+aside > button {
+  border: 0;
+  padding: 15px 0;
+  background: #28a745;
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 16px;
+  display: block;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
+}
+aside > button:hover {
+  background: #3bc55c;
 }/*# sourceMappingURL=styles.css.map */
