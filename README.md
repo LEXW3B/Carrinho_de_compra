@@ -4,6 +4,12 @@
 
 Neste projeto foi criado uma versão simplificada de uma tela de compras feita usando apenas HTML-5 semântico e estilizado com CSS-SASS (SEM FUNCIONALIDADES), em um cenário próximo ao do mercado de trabalho.
 
+## Visualização da página
+<br>
+<p align="center">
+  <img src="./img/carrinho_de_compras.png" width="75%">
+</p>
+<br>
 ## Tecnologias
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
